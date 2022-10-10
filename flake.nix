@@ -1,6 +1,6 @@
 {
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-21.11";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.05";
     pypi-deps-db = {
       url = "github:DavHau/pypi-deps-db";
       flake = false;
@@ -38,6 +38,7 @@
           pygeos
           shapely
           geopy
+          prophet
         '';
       });
   };
