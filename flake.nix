@@ -39,6 +39,7 @@
           shapely
           geopy
           prophet
+	  openpyxl
         '';
       });
   };
